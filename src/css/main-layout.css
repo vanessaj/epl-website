@@ -54,15 +54,61 @@ body {
 	background: #3C1113;
 }
 
+/*
+  BUTTON STYLING
+*/
+.pure-button {
+    background-color: #971320;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
 
-
-
+/*
+  HOME PAGE STYLING
+*/
+.home-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #E8E8E8;
+  
+}
+.home-content{
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 20px; left: 0; right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 5px;
+    border: solid;
+    border-radius: 20px;
+    border-color: black;
+    
+}
+.home-text{
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+  background: black;
+  color: white;
+  
+  padding: 2% 5% 2% 5%;
+}
+.home-logo{
+  opacity: 0.85;
+}
+.home-banner{
+  width: 100%;
+}
 
 /*
 * Main Section Styling
 */
-
-
+.header-img{
+    width: 100%;
+}
 
 .content-wrapper {
     /* These styles are required for the "scroll-over" effect */
@@ -71,14 +117,14 @@ body {
     width: 100%;
     min-height: 12%;
     z-index: 2;
-    background: transparent url('https://download.unsplash.com/37/QAdTsSj8TOOWzlyLn3Rg_14248396556_aefcd9a926_o.jpg') repeat center fixed;
+    background: #FFFFFF;
     /*background: #555;*/
 }
 .section-wrapper {
 	top: 0;
     max-width: 960px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #FFFFFF;
  }
  /* LOGO AT TOP*/
  .logo-wrapper{
@@ -93,7 +139,7 @@ body {
 	Information is for text below header img
  */
  .information{
- 	padding: 5% 9% 2% 8%;
+ 	padding: 5% 8% 20% 8%;
  	
  }
  .page_title{
@@ -144,6 +190,18 @@ body {
   margin-right: 15px;
 }
 
+/* Contact grid styling */
+.pure-g > div {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+.l-box {
+    padding: 1.5em;
+    background-color: #E8E8E8; 
+
+}
+
 /*
 	TRACKING & TRACING styling
 */
@@ -185,4 +243,6 @@ body {
     margin: 0 auto;
     text-align: left;
 }
-
+.footer-menu-links a{
+  color: white;
+}
